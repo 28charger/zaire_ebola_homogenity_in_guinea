@@ -1,0 +1,156 @@
+{
+  "annotations": {
+    "ZEBOVgp1": {
+      "end": 2689,
+      "start": 469,
+      "strand": 1
+    },
+    "ZEBOVgp2": {
+      "end": 4151,
+      "start": 3128,
+      "strand": 1
+    },
+    "ZEBOVgp3": {
+      "end": 5459,
+      "start": 4478,
+      "strand": 1
+    },
+    "ZEBOVgp4": {
+      "end": 6933,
+      "start": 6038,
+      "strand": 1
+    },
+    "ZEBOVgp5": {
+      "end": 9375,
+      "start": 8508,
+      "strand": 1
+    },
+    "ZEBOVgp6": {
+      "end": 11100,
+      "start": 10344,
+      "strand": 1
+    },
+    "ZEBOVgp7": {
+      "end": 18219,
+      "start": 11580,
+      "strand": 1
+    },
+    "nuc": {
+      "end": 18959,
+      "start": 0,
+      "strand": 1
+    }
+  },
+  "author_info": {},
+  "color_options": {
+    "country": {
+      "color_map": [
+        [
+          "Guinea",
+          "#33C9FF"
+        ],
+        [
+          "Liberia",
+          "#EA5480"
+        ]
+      ],
+      "key": "country",
+      "legendTitle": "Country",
+      "menuItem": "country",
+      "type": "discrete"
+    },
+    "num_date": {
+      "key": "num_date",
+      "legendTitle": "Sampling date",
+      "menuItem": "date",
+      "type": "continuous"
+    },
+    "state": {
+      "color_map": [
+        [
+          "Conakry",
+          "#33C9FF"
+        ],
+        [
+          "Gueckeduo",
+          "#33C9FF"
+        ],
+        [
+          "Freetown",
+          "#68FF33"
+        ],
+        [
+          "Monrovia\u00a0",
+          "#EA5480"
+        ],
+        [
+          "Voinjama",
+          "#EA5480"
+        ]
+      ],
+      "key": "state",
+      "legendTitle": "State",
+      "menuItem": "state",
+      "type": "discrete"
+    }
+  },
+  "defaults": {
+    "colorBy": "state",
+    "geoResolution": "state",
+    "mapTriplicate": false
+  },
+  "filters": [
+    "country",
+    "state"
+  ],
+  "geo": {
+    "country": {
+      "Guinea": {
+        "latitude": 9.6412,
+        "longitude": -13.5784
+      },
+      "Liberia": {
+        "latitude": 6.3156,
+        "longitude": -10.8074
+      },
+      "Sierra_Leone": {
+        "latitude": 8.5,
+        "longitude": -11.5
+      }
+    },
+    "state": {
+      "Conakry": {
+        "latitude": 9.538,
+        "longitude": -13.5784
+      },
+      "Freetown": {
+        "latitude": 8.484,
+        "longitude": -13.2299
+      },
+      "Gueckeduo": {
+        "latitude": 8.565,
+        "longitude": -10.1311
+      },
+      "Monrovia\u00a0": {
+        "latitude": 6.3156,
+        "longitude": -10.8074
+      },
+      "Voinjama": {
+        "latitude": 8.4202,
+        "longitude": -9.7539
+      }
+    }
+  },
+  "maintainer": [
+    "Cole Jensen",
+    "github.com"
+  ],
+  "panels": [
+    "tree",
+    "map",
+    "entropy"
+  ],
+  "title": "Zaire Ebola Homogenity in Guinea",
+  "updated": "20 Feb 2020",
+  "virus_count": 73
+}
